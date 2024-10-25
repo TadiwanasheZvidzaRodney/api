@@ -4,7 +4,7 @@ dotenv.config();
 
 const mongo_uri =
   process.env.MONGO_URI ||
-  "mongodb+srv://portfolio:portfolio12@portfolio.wh3se.mongodb.net/?retryWrites=true&w=majority&appName=portfolio";
+  "mongodb+srv://menace:GvjJ87crvbyS3ggP@portfolio.0bk1a.mongodb.net/?retryWrites=true&w=majority&appName=portfolio";
 const connectDB = async()=>{
   try {
     await mongoose.connect(mongo_uri);
